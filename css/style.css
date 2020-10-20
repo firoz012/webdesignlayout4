@@ -1,0 +1,94 @@
+
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+	color: #797979;
+	font-family: 'Roboto', sans-serif;
+}
+ h1,h2,h3,h4,h5,h6{
+  color: #3a414e;
+  font-family: 'Rajdhani', sans-serif;
+  
+}
+.about-section{
+	width: 100%;
+	display: flow-root;
+	background-color: #FAFAFA;
+	padding: 70px 0px;
+}
+.container{
+	width: 1200px;
+	margin:  0 auto;
+}
+.all-content{}
+.about{
+	width: 31%;
+    float: left;
+    box-sizing: border-box;
+    margin: 9px;
+    background-color: #d8dad930;
+    padding: 20px 30px;
+    transition: 0.5s;
+    box-shadow: 0px 5px 20px 
+}
+.about:hover{
+	background-color: orange;
+	color:white;
+	transition: 0.5s;
+	transform: rotate(20);
+
+}
+.about h2{
+	margin: 0px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-weight: 700;
+	text-align: left;
+}
+.about p{
+	padding: 0px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+}
+.gallery-section{
+	width: 100%;
+	display: flow-toot;
+	background-color: #EEEEEE;
+	padding: 70px 0px;
+	overflow: hidden;
+}
+.gallery{
+	width: 33%;
+	float: left;
+	padding: 10px;
+		
+
+	}
+	h2{
+		text-align: center;
+		margin-bottom: 30px;
+		font-weight: 700;
+		font-size: 38px;
+	}
+	h2:hover{
+		color:orange;
+	}
+	.gallery img{
+		max-width: 100%;
+		object-fit: cover;
+		width: 100%;
+		border-radius: 2px;
+		transition: 2s;
+
+	}
+
+
+	
